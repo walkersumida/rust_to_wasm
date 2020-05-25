@@ -4,7 +4,6 @@ services:
   app:
     build: .
     entrypoint: sh /usr/src/myapp/run.sh
-    # tty: true
     volumes:
       - .:/usr/src/myapp
     ports:
